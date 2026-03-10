@@ -1,84 +1,67 @@
-import { Link } from "react-router-dom"
-import { ArrowRight } from "lucide-react"
-import { PageContainer } from "@/components/layout/PageContainer"
-import { CaseStudyCard } from "@/components/work/CaseStudyCard"
-import { getFeaturedProjects } from "@/data/projects"
+interface HomeProps {
+  navigateTo: (page: string) => void
+}
 
-export default function Home() {
-  const featured = getFeaturedProjects()
-
+export default function Home({ navigateTo }: HomeProps) {
   return (
-    <>
-      {/* Hero -- Ramp-style: big type, generous whitespace */}
-      <div className="mx-auto max-w-6xl px-6 pb-20 pt-24 md:px-10 lg:pt-32 lg:pb-28">
-        <h1 className="mb-6 font-display text-5xl font-bold leading-[1.08] tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
-          I design how
-          <br />
-          people interact
-          <br />
-          with data.
-        </h1>
-        <p className="max-w-xl text-lg leading-relaxed text-gray-500">
-          12 years designing self-service analytics, custom applications with
-          embedded AI, and data products for enterprise teams.
-        </p>
-        <div className="mt-10 flex gap-4">
-          <Link
-            to="/work"
-            className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-white no-underline transition-colors hover:bg-accent-dark hover:text-white"
-          >
-            View my work
-            <ArrowRight size={16} />
-          </Link>
-          <Link
-            to="/contact"
-            className="inline-flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-medium text-gray-500 no-underline transition-colors hover:text-gray-900"
-          >
-            Get in touch
-          </Link>
+    <div className="home-layout">
+      <div className="home-top">
+        <section className="hero">
+          <div className="hero-content">
+            <h1 className="hero-headline">I design data<br />products people<br />actually use.</h1>
+            <p className="hero-subtitle">12 years shipping analytics products across 30+ enterprise teams. I design around decisions, prototype in code, and measure whether people actually changed how they work.</p>
+            <div className="cta-group">
+              <button className="cta-primary" onClick={() => navigateTo('about')}>About me ▸</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div className="work-row">
+        <div className="work-column-header">Experience</div>
+        <div className="cards-grid">
+          <div className="card" onClick={() => navigateTo('case-study-1')}>
+            <div className="card-meta">Lovelytics · 2024 – Present</div>
+            <h3 className="card-title">AI-Augmented Design Practice</h3>
+            <p className="card-summary">AI agent workflow, component library, and prototype-first methodology that ships across every engagement.</p>
+            <div className="card-tags">
+              <span className="tag">AI Workflows</span>
+              <span className="tag">Design Systems</span>
+              <span className="tag">Strategy</span>
+            </div>
+          </div>
+          <div className="card" onClick={() => navigateTo('case-study-2')}>
+            <div className="card-meta">Lovelytics · 2022 – Present</div>
+            <h3 className="card-title">Enterprise Analytics at Scale</h3>
+            <p className="card-summary">30+ enterprise products across 5 industries. Users went from requesting reports to making decisions themselves.</p>
+            <div className="card-tags">
+              <span className="tag">User Research</span>
+              <span className="tag">Information Architecture</span>
+              <span className="tag">Prototyping</span>
+            </div>
+          </div>
+          <div className="card" onClick={() => navigateTo('case-study-3')}>
+            <div className="card-meta">Lovelytics · ELC · 2023 – Present</div>
+            <h3 className="card-title">Fortune 500 Product Ecosystem</h3>
+            <p className="card-summary">6 products for a Fortune 500 digital transformation. Managed the design team across parallel workstreams.</p>
+            <div className="card-tags">
+              <span className="tag">Product Design</span>
+              <span className="tag">Team Leadership</span>
+              <span className="tag">GenAI</span>
+            </div>
+          </div>
+          <div className="card" onClick={() => navigateTo('case-study-4')}>
+            <div className="card-meta">RefineRE · 2021 – 2022</div>
+            <h3 className="card-title">Product Platform Redesign</h3>
+            <p className="card-summary">Unified four CRE analytics products into one. A/B-tested IA restructure cut support tickets 75%.</p>
+            <div className="card-tags">
+              <span className="tag">A/B Testing</span>
+              <span className="tag">User Research</span>
+              <span className="tag">Information Architecture</span>
+            </div>
+          </div>
         </div>
       </div>
-
-      {/* Featured Work -- bento-style grid */}
-      <div className="bg-surface">
-        <PageContainer wide>
-          <div className="mb-10 flex items-center justify-between">
-            <h2 className="text-sm font-medium text-gray-400">
-              Selected Work
-            </h2>
-            <Link
-              to="/work"
-              className="inline-flex items-center gap-1 text-sm font-medium text-gray-400 no-underline hover:text-gray-900"
-            >
-              All projects
-              <ArrowRight size={14} />
-            </Link>
-          </div>
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {featured.map((project) => (
-              <CaseStudyCard key={project.slug} project={project} />
-            ))}
-          </div>
-        </PageContainer>
-      </div>
-
-      {/* CTA */}
-      <PageContainer className="text-center">
-        <h2 className="mb-4 font-display text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
-          Let's work together.
-        </h2>
-        <p className="mx-auto mb-8 max-w-lg text-gray-500">
-          I'm looking for an end-to-end product design role where
-          design owns outcomes, not deliverables.
-        </p>
-        <Link
-          to="/contact"
-          className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-white no-underline transition-colors hover:bg-accent-dark hover:text-white"
-        >
-          Get in touch
-          <ArrowRight size={16} />
-        </Link>
-      </PageContainer>
-    </>
+    </div>
   )
 }
