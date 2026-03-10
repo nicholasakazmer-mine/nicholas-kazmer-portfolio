@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Warm neutral palette -- inspired by Ramp's warm grays */
+  --color-gray-50: #FAFAF8;
+  --color-gray-100: #F5F5F0;
+  --color-gray-200: #E8E8E3;
+  --color-gray-300: #D4D4CF;
+  --color-gray-400: #A3A39E;
+  --color-gray-500: #737370;
+  --color-gray-600: #545451;
+  --color-gray-700: #3D3D3A;
+  --color-gray-800: #282826;
+  --color-gray-900: #1A1A18;
+  --color-gray-950: #0D0D0C;
+
+  /* Accent: viridian green */
+  --color-accent: #3B8A6E;
+  --color-accent-dark: #2D6E57;
+  --color-accent-light: #4CA882;
+
+  /* Surface colors */
+  --color-surface: #F5F5F0;
+  --color-surface-elevated: #FFFFFF;
+
+  /* Typography */
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Radius -- subtle, not playful */
+  --radius-sm: 4px;
+  --radius-base: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-gray-600);
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-gray-900);
+}
+
+a {
+  color: var(--color-gray-900);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-gray-600);
+}
+
+/* Utility classes */
+.text-balance {
+  text-wrap: balance;
+}
