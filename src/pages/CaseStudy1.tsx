@@ -60,7 +60,7 @@ export default function CaseStudy1({ navigateTo }: Props) {
       label: 'Design System',
       content: (
         <>
-          <p style={{ fontSize: '13px', color: 'var(--g500)', lineHeight: 1.7, marginBottom: '16px' }}>Built a component library (React, Tailwind, shadcn/ui) with code-ready design tokens that ships across every engagement. Covers color, typography (Jost + DM Sans), spacing (8pt grid), shadows, and responsive breakpoints. Component specs for KPI cards, chart containers, tables, and navigation patterns. Each new account inherits the system -- App 1 is full effort, Apps 2-3 run at 80%, App 4+ at 65%.</p>
+          <p style={{ fontSize: '13px', color: 'var(--g500)', lineHeight: 1.7, marginBottom: '16px' }}>Built a component library (React, Tailwind, shadcn/ui) with code-ready design tokens that ships across every engagement. Covers color, typography (Jost + DM Sans), spacing (8pt grid), shadows, and responsive breakpoints. Component specs for KPI cards, chart containers, tables, and navigation patterns. Each new account inherits the system: App 1 is full effort, Apps 2-3 run at 80%, App 4+ at 65%.</p>
           <div className="cs-inline-metrics">
             <div className="cs-inline-metric"><span className="cs-inline-num">6</span><span className="cs-inline-label">surface types covered</span></div>
             <div className="cs-inline-metric"><span className="cs-inline-num">65%</span><span className="cs-inline-label">effort by App 4+</span></div>
@@ -73,7 +73,7 @@ export default function CaseStudy1({ navigateTo }: Props) {
       label: 'Strategy & Evolution',
       content: (
         <>
-          <p style={{ fontSize: '13px', color: 'var(--g500)', lineHeight: 1.7, marginBottom: '16px' }}>Evolved the practice from dashboard delivery to product design. Repositioned the service around analytics experience design -- framing every engagement around decisions and outcomes rather than charts and data models. Productized into three engagement models: Design Sprints (single product, 2-3 weeks), Multi-Product Programs (3-5 products, one quarter), and Embedded Design Leads (ongoing). Built a team curriculum covering UI/UX, data storytelling, and AI-augmented design workflows.</p>
+          <p style={{ fontSize: '13px', color: 'var(--g500)', lineHeight: 1.7, marginBottom: '16px' }}>Evolved the practice from dashboard delivery to product design. Repositioned the service around analytics experience design, framing every engagement around decisions and outcomes rather than charts and data models. Productized into three engagement models: Design Sprints (single product, 2-3 weeks), Multi-Product Programs (3-5 products, one quarter), and Embedded Design Leads (ongoing). Built a team curriculum covering UI/UX, data storytelling, and AI-augmented design workflows.</p>
           <div className="cs-inline-metrics">
             <div className="cs-inline-metric"><span className="cs-inline-num">3</span><span className="cs-inline-label">productized models</span></div>
             <div className="cs-inline-metric"><span className="cs-inline-num">4</span><span className="cs-inline-label">curriculum modules</span></div>
@@ -102,7 +102,7 @@ export default function CaseStudy1({ navigateTo }: Props) {
             <div className="stat-card"><div className="stat-number">6</div><div className="stat-label">Product Surface Types</div></div>
           </div>
           <p style={{ fontSize: '13px', color: 'var(--g400)', lineHeight: 1.7, margin: 0 }}>
-            Design was an afterthought -- stakeholders saw their product for the first time after it was mostly built. Every project reinvented basic patterns. I built a <strong style={{ color: 'var(--g600)' }}>prototype-first methodology</strong>, an <strong style={{ color: 'var(--g600)' }}>AI agent workflow</strong> where Claude Code generates wireframes from design documents and runs automated reviews, and a <strong style={{ color: 'var(--g600)' }}>shared design system</strong> that compounds across every project. The result: I spend my time on information architecture and interaction design instead of layout computation.
+            Design was an afterthought. Stakeholders saw their product for the first time after it was mostly built. Every project reinvented basic patterns. I built a <strong style={{ color: 'var(--g600)' }}>prototype-first methodology</strong>, an <strong style={{ color: 'var(--g600)' }}>AI agent workflow</strong> where Claude Code generates wireframes from design documents and runs automated reviews, and a <strong style={{ color: 'var(--g600)' }}>shared design system</strong> that compounds across every project. The result: I spend my time on information architecture and interaction design instead of layout computation.
           </p>
           <div className="cs-transform-compact">
             <div className="cs-transform-col">
@@ -118,7 +118,7 @@ export default function CaseStudy1({ navigateTo }: Props) {
               <div className="cs-transform-heading">After</div>
               <div className="cs-transform-item">6 surfaces: apps, AI tools, embedded, ops, design systems</div>
               <div className="cs-transform-item">Validated design document before build</div>
-              <div className="cs-transform-item">Feedback on wireframes -- iteration is cheap</div>
+              <div className="cs-transform-item">Feedback on wireframes (iteration is cheap)</div>
               <div className="cs-transform-item">Design system compounds across engagements</div>
               <div className="cs-transform-item">40-60% less rework from design-first</div>
             </div>
@@ -130,7 +130,7 @@ export default function CaseStudy1({ navigateTo }: Props) {
 
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '40px 48px' }}>
         <p className="reflection-text" style={{ textAlign: 'left', margin: 0, maxWidth: '60%' }}>
-          The prototype phase felt like adding time. It actually removed it -- we caught problems before they were expensive to fix. AI pushed this further. What took a week of layout work now takes a day, and that day is spent on the decisions that actually matter.
+          The prototype phase felt like adding time. It actually removed it. We caught problems before they were expensive to fix. AI pushed this further. What took a week of layout work now takes a day, and that day is spent on the decisions that actually matter.
         </p>
         <a href="#" onClick={(e) => { e.preventDefault(); navigateTo('case-study-2') }} className="case-study-back" style={{ marginBottom: 0 }}>
           Breadth at Scale ➔

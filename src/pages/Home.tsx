@@ -53,7 +53,7 @@ export default function Home({ navigateTo }: HomeProps) {
           <div className="card" onClick={() => navigateTo('case-study-4')}>
             <div className="card-meta">RefineRE · 2021 – 2022</div>
             <h3 className="card-title">Product Platform Redesign</h3>
-            <p className="card-summary">Unified four CRE analytics products into one. A/B-tested IA restructure cut support tickets 75%.</p>
+            <p className="card-summary">Unified four CRE analytics products into one. A/B-tested information architecture restructure cut support tickets 75%.</p>
             <div className="card-tags">
               <span className="tag">A/B Testing</span>
               <span className="tag">User Research</span>

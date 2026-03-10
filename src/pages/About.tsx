@@ -110,7 +110,7 @@ export default function About({ navigateTo }: AboutProps) {
                 <div className="role-card-dates">2021 – 2022</div>
               </div>
               <div className="role-card-org">RefineRE · Director of Product</div>
-              <div className="role-card-body">Full product redesign: user research, hypothesis formation, A/B testing, IA restructure, and hypothesis-driven quarterly releases. The traditional product design arc from research through shipped, measured outcomes.</div>
+              <div className="role-card-body">Full product redesign: user research, hypothesis formation, A/B testing, information architecture restructuring, and hypothesis-driven quarterly releases. The traditional product design arc from research through shipped, measured outcomes.</div>
             </div>
             <div className="role-card-right">
               <div className="role-card-kpis">
