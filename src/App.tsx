@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Login from '@/pages/Login'
 import Home from '@/pages/Home'
 import About from '@/pages/About'
 import Contact from '@/pages/Contact'
@@ -19,7 +20,13 @@ const navItems: { page: Page; label: string }[] = [
 ]
 
 function App() {
+  const [showLogin] = useState(() =>
+    new URLSearchParams(window.location.search).has('login')
+  )
+
   const [currentPage, setCurrentPage] = useState<Page>('home')
+
+  if (showLogin) return <Login />
 
   const navigateTo = (page: string) => {
     setCurrentPage(page as Page)
