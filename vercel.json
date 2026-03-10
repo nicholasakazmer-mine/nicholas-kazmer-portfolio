@@ -1,10 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "functions": {
-    "middleware.ts": {
-      "runtime": "edge"
-    }
-  }
+  ]
 }
