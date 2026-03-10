@@ -3,7 +3,7 @@ export default function Contact() {
     <section className="contact-section">
       <div className="contact-left">
         <h1 className="contact-headline">Get in touch.</h1>
-        <p className="contact-body">I'm looking for an end-to-end product design role where design owns outcomes, not deliverables. Let's talk.</p>
+        <p className="contact-body">I'm looking for an end-to-end product design role where design owns outcomes from problem definition through launch. Let's talk.</p>
       </div>
       <div className="contact-cards-stack">
         <div className="contact-card-item">

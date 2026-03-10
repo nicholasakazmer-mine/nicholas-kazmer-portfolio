@@ -12,7 +12,7 @@ export default function About({ navigateTo }: AboutProps) {
             <div className="about-role-label">Product Designer</div>
           </div>
           <div className="about-positioning-text">
-            12 years shipping data products people actually use. I've designed analytics products across <strong>30+ enterprise teams</strong> and 5 industry verticals, from self-service analytics to AI-powered applications. The products I've designed increased self-service adoption by <strong>40-70%</strong>, moving non-technical teams from requesting reports to making decisions themselves. I build with AI agents, prototype in code using Claude Code and Cursor, and measure whether behavior actually changes. Ready for an end-to-end product design role where design owns outcomes, not deliverables.
+            12 years shipping data products people actually use. I've designed analytics products across <strong>30+ B2B enterprise teams</strong> and 5 industry verticals, from self-service analytics to AI-powered applications. The products I've designed increased self-service adoption by <strong>40-70%</strong>, moving non-technical teams from requesting reports to making decisions themselves. I build with AI agents, prototype in code using Claude Code and Cursor, and measure whether behavior actually changes. Ready for an end-to-end product design role where design owns outcomes from problem definition through launch.
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@ export default function About({ navigateTo }: AboutProps) {
           </div>
           <div className="how-item">
             <div className="how-label">Shipping</div>
-            <div className="how-title">I prototype in code and ship product</div>
-            <div className="how-body">Working prototypes in React, not slide decks. I write production front-end, build design systems, and stay through launch metrics.</div>
+            <div className="how-title">I prototype in code, then refine in canvas</div>
+            <div className="how-body">Working prototypes in React, then full state coverage in Figma. I write production front-end, build design systems, and stay through launch.</div>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function About({ navigateTo }: AboutProps) {
                 <div className="role-card-dates">2022 – Present</div>
               </div>
               <div className="role-card-org">Lovelytics · Analytics Director</div>
-              <div className="role-card-body">Designed analytics products across 30+ enterprise teams and 5 industry verticals. The pattern: redesign information architecture around what users need to decide, prototype in code, measure whether behavior actually changes.</div>
+              <div className="role-card-body">Designed analytics products across 30+ B2B enterprise teams and 5 industry verticals. The pattern: redesign information architecture around what users need to decide, prototype in code, define success metrics, and measure whether behavior actually changes.</div>
             </div>
             <div className="role-card-right">
               <div className="role-card-kpis">
