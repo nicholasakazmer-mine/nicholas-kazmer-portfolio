@@ -1,6 +1,4 @@
-import { next } from "@vercel/edge"
-
-export default function middleware(request: Request) {
+export default function middleware(request: Request): Response | undefined {
   const authHeader = request.headers.get("authorization")
 
   if (authHeader) {
@@ -14,7 +12,7 @@ export default function middleware(request: Request) {
         user === process.env.AUTH_USER &&
         pass === process.env.AUTH_PASS
       ) {
-        return next()
+        return undefined // pass through
       }
     }
   }
