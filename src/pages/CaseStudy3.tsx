@@ -70,7 +70,7 @@ export default function CaseStudy3({ navigateTo }: Props) {
         </a>
         <div className="cs1-hero-grid">
           <div className="case-study-title-group">
-            <div className="case-study-meta">Lovelytics · Estee Lauder Companies · 2023 -- Present</div>
+            <div className="case-study-meta">Lovelytics · Estee Lauder Companies · 2023 – Present</div>
             <h1 className="case-study-title">Fortune 500 Product Ecosystem</h1>
             <div className="case-study-role">Lead Designer</div>
           </div>

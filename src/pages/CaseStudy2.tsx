@@ -71,7 +71,7 @@ export default function CaseStudy2({ navigateTo }: Props) {
         </a>
         <div className="cs1-hero-grid">
           <div className="case-study-title-group">
-            <div className="case-study-meta">Lovelytics · 2022 -- Present</div>
+            <div className="case-study-meta">Lovelytics · 2022 – Present</div>
             <h1 className="case-study-title">Enterprise Analytics at Scale</h1>
             <div className="case-study-role">Analytics Director</div>
           </div>

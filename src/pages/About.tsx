@@ -12,7 +12,7 @@ export default function About({ navigateTo }: AboutProps) {
             <div className="about-role-label">Product Designer</div>
           </div>
           <div className="about-positioning-text">
-            12 years shipping data products people actually use. I've designed analytics products across <strong>30+ enterprise teams</strong> and 5 industry verticals -- from self-service analytics to AI-powered applications. The products I've designed increased self-service adoption by <strong>40-70%</strong>, moving non-technical teams from requesting reports to making decisions themselves. I build with AI agents, prototype in code, and measure whether behavior actually changes. Ready for an end-to-end product design role where design owns outcomes, not deliverables.
+            12 years shipping data products people actually use. I've designed analytics products across <strong>30+ enterprise teams</strong> and 5 industry verticals, from self-service analytics to AI-powered applications. The products I've designed increased self-service adoption by <strong>40-70%</strong>, moving non-technical teams from requesting reports to making decisions themselves. I build with AI agents, prototype in code, and measure whether behavior actually changes. Ready for an end-to-end product design role where design owns outcomes, not deliverables.
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function About({ navigateTo }: AboutProps) {
                 <div className="role-card-dates">2024 – Present</div>
               </div>
               <div className="role-card-org">Lovelytics · Experience Design Lead</div>
-              <div className="role-card-body">Built a prototype-first design practice, AI agent workflow, and component library that ships across every engagement. AI amplifies design judgment -- I spend time on information architecture and interaction design instead of layout computation.</div>
+              <div className="role-card-body">Built a prototype-first design practice, AI agent workflow, and component library that ships across every engagement. AI amplifies design judgment: I spend time on information architecture and interaction design instead of layout computation.</div>
             </div>
             <div className="role-card-right">
               <div className="role-card-kpis">
@@ -91,7 +91,7 @@ export default function About({ navigateTo }: AboutProps) {
                 <div className="role-card-dates">2023 – Present</div>
               </div>
               <div className="role-card-org">Lovelytics · Estee Lauder Companies</div>
-              <div className="role-card-body">Led a design team shipping 6 products for a $14.3B Fortune 500 -- from GenAI shelf analytics to executive intelligence. Managed cross-functional design across 5 stakeholder groups with fundamentally different decision patterns.</div>
+              <div className="role-card-body">Led a design team shipping 6 products for a $14.3B Fortune 500, from GenAI shelf analytics to executive intelligence. Managed cross-functional design across 5 stakeholder groups with fundamentally different decision patterns.</div>
             </div>
             <div className="role-card-right">
               <div className="role-card-kpis">

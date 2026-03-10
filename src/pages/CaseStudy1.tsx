@@ -92,7 +92,7 @@ export default function CaseStudy1({ navigateTo }: Props) {
         </a>
         <div className="cs1-hero-grid">
           <div className="case-study-title-group">
-            <div className="case-study-meta">Lovelytics · 2024 -- Present</div>
+            <div className="case-study-meta">Lovelytics · 2024 – Present</div>
             <h1 className="case-study-title">AI-Augmented Design Practice</h1>
             <div className="case-study-role">Experience Design Lead</div>
           </div>

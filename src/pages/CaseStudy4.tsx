@@ -69,7 +69,7 @@ export default function CaseStudy4({ navigateTo }: Props) {
         </a>
         <div className="cs1-hero-grid">
           <div className="case-study-title-group">
-            <div className="case-study-meta">RefineRE · 2021 -- 2022</div>
+            <div className="case-study-meta">RefineRE · 2021 – 2022</div>
             <h1 className="case-study-title">Product Platform Redesign</h1>
             <div className="case-study-role">Director of Product</div>
           </div>
