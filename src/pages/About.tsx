@@ -12,7 +12,7 @@ export default function About({ navigateTo }: AboutProps) {
             <div className="about-role-label">Product Designer</div>
           </div>
           <div className="about-positioning-text">
-            12 years shipping data products people actually use. I've designed analytics products across <strong>30+ enterprise teams</strong> and 5 industry verticals, from self-service analytics to AI-powered applications. The products I've designed increased self-service adoption by <strong>40-70%</strong>, moving non-technical teams from requesting reports to making decisions themselves. I build with AI agents, prototype in code, and measure whether behavior actually changes. Ready for an end-to-end product design role where design owns outcomes, not deliverables.
+            12 years shipping data products people actually use. I've designed analytics products across <strong>30+ enterprise teams</strong> and 5 industry verticals, from self-service analytics to AI-powered applications. The products I've designed increased self-service adoption by <strong>40-70%</strong>, moving non-technical teams from requesting reports to making decisions themselves. I build with AI agents, prototype in code using Claude Code and Cursor, and measure whether behavior actually changes. Ready for an end-to-end product design role where design owns outcomes, not deliverables.
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function About({ navigateTo }: AboutProps) {
           <div className="role-card" onClick={() => navigateTo('case-study-2')} role="link" tabIndex={0}>
             <div className="role-card-left">
               <div className="role-card-header">
-                <div className="role-card-title">Enterprise Analytics Experiences</div>
+                <div className="role-card-title">Enterprise Analytics Products</div>
                 <div className="role-card-dates">2022 – Present</div>
               </div>
               <div className="role-card-org">Lovelytics · Analytics Director</div>

@@ -9,7 +9,7 @@ export default function Home({ navigateTo }: HomeProps) {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-headline">I design data<br />products people<br />actually use.</h1>
-            <p className="hero-subtitle">12 years shipping analytics products across 30+ enterprise teams. I design around decisions, prototype in code, and measure whether people actually changed how they work.</p>
+            <p className="hero-subtitle">12 years shipping analytics products across 30+ enterprise teams. I design around decisions, prototype in code using Claude Code and Cursor, and measure whether people actually changed how they work.</p>
             <div className="cta-group">
               <button className="cta-primary" onClick={() => navigateTo('about')}>About me ▸</button>
             </div>
