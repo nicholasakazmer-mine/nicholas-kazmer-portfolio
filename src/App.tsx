@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Login from '@/pages/Login'
 import Home from '@/pages/Home'
 import About from '@/pages/About'
@@ -80,6 +81,7 @@ function App() {
           </div>
         </footer>
       )}
+      <Analytics />
     </>
   )
 }
